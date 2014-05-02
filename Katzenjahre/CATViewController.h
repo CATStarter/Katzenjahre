@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CATViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *altersTextFeld;
+@property (strong, nonatomic) IBOutlet UILabel *katzenAlterLabel;
+- (IBAction)berechneButton:(UIButton *)sender;
 
 @end

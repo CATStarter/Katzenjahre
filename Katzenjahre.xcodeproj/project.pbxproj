@@ -21,6 +21,7 @@
 		447E313D19017831009F4FA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447E311F19017831009F4FA6 /* UIKit.framework */; };
 		447E314519017831009F4FA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 447E314319017831009F4FA6 /* InfoPlist.strings */; };
 		447E314719017831009F4FA6 /* KatzenjahreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447E314619017831009F4FA6 /* KatzenjahreTests.m */; };
+		447E315319017AAC009F4FA6 /* kitten2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 447E315219017AAC009F4FA6 /* kitten2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		447E314219017831009F4FA6 /* KatzenjahreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KatzenjahreTests-Info.plist"; sourceTree = "<group>"; };
 		447E314419017831009F4FA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		447E314619017831009F4FA6 /* KatzenjahreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KatzenjahreTests.m; sourceTree = "<group>"; };
+		447E315219017AAC009F4FA6 /* kitten2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		447E312219017831009F4FA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				447E315219017AAC009F4FA6 /* kitten2.jpg */,
 				447E312319017831009F4FA6 /* Katzenjahre-Info.plist */,
 				447E312419017831009F4FA6 /* InfoPlist.strings */,
 				447E312719017831009F4FA6 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447E315319017AAC009F4FA6 /* kitten2.jpg in Resources */,
 				447E313419017831009F4FA6 /* Images.xcassets in Resources */,
 				447E312619017831009F4FA6 /* InfoPlist.strings in Resources */,
 				447E312F19017831009F4FA6 /* Main.storyboard in Resources */,

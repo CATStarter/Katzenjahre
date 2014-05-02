@@ -26,4 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)berechneButton:(UIButton *)sender {
+    float menschenJahre, katzenJahre;
+    
+    menschenJahre = [self.altersTextFeld.text floatValue];
+    katzenJahre = menschenJahre*6.3;
+    if(menschenJahre>10){
+        katzenJahre = 5* menschenJahre+6;
+    }
+    else if (menschenJahre>2 && menschenJahre<11){
+        katzenJahre = 2*12 +((menschenJahre-2)*4);
+    }
+    else if (menschenJahre<2){
+        katzenJahre = 2*menschenJahre;
+    }
+    self.katzenAlterLabel.text= [NSString stringWithFormat:@"%f",katzenJahre];
+    
+}
 @end
